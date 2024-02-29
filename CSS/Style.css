@@ -1,0 +1,67 @@
+/* contoh selector tag eksternal */
+p{
+    color: deeppink;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+
+body{
+    background-image:url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+}
+
+fieldset, legend{
+    border-width: 1px;
+    border-color: chocolate;
+}
+
+legend{
+    padding: 10px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+}
+table{
+    background-color: aliceblue;
+    border: 10px;
+    margin: auto;   
+}
+
+td{
+    padding: 20px;
+    border: solid red;
+}
+
+tr:hover{
+    background-color: aqua;
+    color: red;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* contoh selektor id, dimana dapat masuk ke semua tag */
+#paragraph{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    color: blueviolet;
+}
+
+/* berikut cara id yang dikhususkan pada suatu tag li */
+/* li#paragraph{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    color: blueviolet;
+} */
+
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    padding: 2px 2px;
+    background-color: aliceblue;
+}

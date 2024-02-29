@@ -1,0 +1,64 @@
+*{
+    /* ini adalah css universal */
+    /* memungkinkan semua tag html terpengaruh dalam css universal */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0cm;
+
+}
+
+.header{
+    background-image: url(../image/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+/* deklarasi class */
+.navbar{
+    overflow: hidden; 
+    /*overflow buat scroll samping  */
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+}
+/* deklarasi class didalam tag a */
+.navbar a{
+    float: center;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+/* deklarasi tag didalam hoover */
+.navbar a:hover{
+    background-color:white;
+    color: black;
+
+}
+
+.column{
+    float: left;
+    padding: 50px;
+}
+
+.column.side{
+    width: 25%;
+}
+.column.middle{
+    width: 50%;
+}
+.row::after{
+content: "";
+display: flex;
+clear: both;
+/* Membersihkan float sebelumnya */
+}
+
+.footer{
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+}
