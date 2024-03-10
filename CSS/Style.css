@@ -58,10 +58,19 @@ tr:hover{
     color: blueviolet;
 } */
 
+/* contoh class */
 ul, li, a.item:link, a.item:visited, a.item:active{
+    /* menghilangkan garis pada link */
     text-decoration: none;
+    /* menghilangkan a sebagai block */
     list-style: none;
+    /* mendisplay a sebagai block */
+    display: block;
+    /* memposisikan a untuk ke bagian kiri */
     float: left;
+    /* memberi jarak dan membentuk persegi */
     padding: 2px 2px;
+    /* mewarnai block */
     background-color: aliceblue;
 }
+/*  */
